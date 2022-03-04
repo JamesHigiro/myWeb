@@ -1,0 +1,242 @@
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Google Pixel XL ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+
+}
+  
+
+
+
+
+
+
+
+  .social-media-item {
+    margin: 4px 20px 4px 0;
+    min-width: 40%;
+    width: 40%;
+    text-decoration: none;
+    color: var(--dark-gray);
+  }
+  .social-media-item i {
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    color: var(--white);
+    padding: 4px;
+    margin-right: 5px;
+  }
+  .left-content {
+    width: 25%;
+    background-color: var(--primary-color);
+  }
+  .right-content {
+    width: 75%;
+    max-width: 70%;
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 50px;
+    max-width: 50px;
+  }
+  
+  .y-padding-40 {
+    padding: 40px 0px;
+  }
+  .icon i {
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+    justify-content: center;
+    min-width: 10px;
+    min-height: 10px;
+    padding: 4px;
+    color: var(--white);
+  }
+  .icon i.fa-solid {
+    padding: 8px;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+  }
+  .icon::after {
+    content: "";
+    flex: 1;
+    width: 1px;
+    background-color: var(--gray);
+  }
+  .timeline {
+    color: var(--white);
+    text-align: right;
+  }
+  .timeline h6 {
+    margin-right: 10px;
+  }
+  ul {
+    margin: 20px;
+  }
+  .rating-section {
+    text-align: right;
+  }
+  ul.rating {
+    margin: 0px;
+  }
+  .rating li {
+    min-width: 15px;
+    min-height: 15px;
+    display: inline-block;
+    background-color: var(--gray);
+    border-radius: 50%;
+  }
+  .rating li.filled {
+    background-color: var(--primary-color);
+  }
+  h1,
+  h2,
+  h3 {
+    color: var(--primary-color);
+  }
+  h1 {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 900;
+  }
+  h2 {
+    padding-bottom: 8px;
+  }
+  h3 {
+    padding-bottom: 6px;
+  }
+  #skills p {
+    padding-bottom: 4px;
+  }
+  :root {
+    --primary-color: blue;
+    --white: #fff;
+    --gray: #d4d6d6;
+    --dark-gray: #454545;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    padding: 20px;
+  }
+  p,
+  li {
+    color: var(--dark-gray);
+  }
+  #Names {
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  .curicullum--section {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  #curicullum {
+    max-width: 980px;
+    font-family: sans-serif, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--primary-color);
+    margin: auto;
+  }
+  .outside {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--gray);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+  }
+  
+  .section-outside {
+    padding: 10px;
+    width: 100%;
+  }
+  .section-outside.top-padding-0 {
+    padding-top: 0px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+  }
+  .row.space-between {
+    justify-content: space-between;
+  }
+  #social-media {
+    margin: 10px 0;
+  }
+  
+  .outside {
+    
+    position:absolute;
+    top:50px;
+    right:50px;
+    bottom:-680px;
+    left:50px;
+    margin-bottom: 1;
+  }
+
+  /* body{
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+  } */
